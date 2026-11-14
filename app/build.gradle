@@ -1,0 +1,46 @@
+plugins {
+    id 'com.android.application' version '8.13.2'
+}
+
+android {
+    namespace 'io.autohmg.cupfight'
+    compileSdk 34
+    useLibrary 'android.car', false
+
+    def releaseStore = System.getenv('CUPFIGHT_RELEASE_STORE_FILE')
+    signingConfigs {
+        if (releaseStore) {
+            release {
+                storeFile file(releaseStore)
+                storePassword System.getenv('CUPFIGHT_RELEASE_STORE_PASSWORD')
+                keyAlias System.getenv('CUPFIGHT_RELEASE_KEY_ALIAS')
+                keyPassword System.getenv('CUPFIGHT_RELEASE_KEY_PASSWORD')
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            if (releaseStore) {
+                signingConfig signingConfigs.release
+            }
+        }
+    }
+
+    defaultConfig {
+        applicationId 'io.autohmg.cupfight'
+        minSdk 28
+        targetSdk 34
+        versionCode 15
+        versionName '0.9.4'
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

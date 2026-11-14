@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CupFight" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#0A1018</item>
+        <item name="android:colorAccent">#93E8F5</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>

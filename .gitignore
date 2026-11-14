@@ -1,0 +1,32 @@
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+.render-tools/
+
+# Local research and documents containing participant information.
+/site_data/
+/docs/proposal-*/
+*.docx
+*.pdf
+/*.py
+/index.html
+/cupfight_running.png
+/CUPFIGHT_HANDOVER_SPEC.md
+/tools/*proposal*.py
+**/__pycache__/
+*.log
+*.tmp
+
+# APK signing credentials stay on the developer's computer.
+*.jks
+*.keystore
+signing*.properties
+.secrets/
+.env
+.env.*
+*.p12
+*.pfx
+*.pem
+*.key

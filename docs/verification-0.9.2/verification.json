@@ -1,0 +1,11 @@
+{
+  "version": "0.9.2",
+  "versionCode": 13,
+  "regression_assertions": 17,
+  "debug_build_and_lint": "passed; existing lint warnings remain",
+  "official_pleos": "2.1.0 API34 2560x1440; APK installed, speed permission required; end-to-end stop UI unverified",
+  "proposal_original_unchanged": true,
+  "proposal_pages_rendered_and_visually_inspected": 8,
+  "proposal_sha256": "f75563d3b09993773a24e57bc31534bf99d91f28386fe5733776242b155ab9cf",
+  "apk_sha256": "a2572cc08ae6e7bb60d20d6cd7db681b39ee4601813f9ce63dfe508033a2a0bc"
+}

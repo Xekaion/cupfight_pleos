@@ -1,0 +1,10 @@
+{
+  "version": "0.9.3",
+  "versionCode": 14,
+  "direction_and_cache_checks": 100,
+  "debug_build_and_lint": "passed",
+  "screenshot": "traffic-after.png",
+  "capture": "ADB screencap; ordinary Android API34 emulator; 1280x800; density160",
+  "orientation": "left lane up-right; right lane up-left; center straight",
+  "apk_sha256": "c4aeed2f70393500f7b5c296d6966a5ed07556bfb04ad03982cfce9db58fdf4b"
+}

@@ -1,0 +1,18 @@
+{
+  "version": "0.9.4",
+  "versionCode": 15,
+  "build": "assembleDebug, assembleRelease, lintRelease passed",
+  "signing": "release APK verified; CN=CupFight; private signing material excluded",
+  "runtime": "Fresh ordinary Android API34 emulator, 1280x800, density160",
+  "release_smoke": [
+    "installed signed release APK",
+    "home and 3D road view displayed",
+    "water preview played to completion"
+  ],
+  "release_debuggable": false,
+  "official_pleos_latest_end_to_end": "not yet verified",
+  "apk_sha256": {
+    "컵스_컵파이트_debug.apk": "ad8fb5eef6fc5c48da1e0c1d828e3a0b483b89cc1fb673c17c68cf9831c6b750",
+    "컵스_컵파이트_release.apk": "6d8f38e9dcc01fd03636c3c871772dab209195deb0e9126af555fdab67f8a81a"
+  }
+}

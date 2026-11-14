@@ -1,0 +1,16 @@
+{
+  "version": "0.9.4",
+  "versionCode": 15,
+  "ground_and_direction_checks": 400,
+  "build_and_lint": "passed; existing warnings remain",
+  "runtime": "ordinary Android API34 emulator, 1280x800, density160",
+  "visually_checked": [
+    "100m home",
+    "50m zoom",
+    "200m zoom",
+    "moving approach to match offer"
+  ],
+  "projection": "one road-ground camera for ego and traffic; shadows at projected tire contact points",
+  "geometry": "existing car OBJ unchanged",
+  "apk_sha256": "ad8fb5eef6fc5c48da1e0c1d828e3a0b483b89cc1fb673c17c68cf9831c6b750"
+}
