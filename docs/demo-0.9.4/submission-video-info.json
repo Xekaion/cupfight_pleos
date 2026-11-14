@@ -1,0 +1,61 @@
+{
+  "app_version": "0.9.4",
+  "frozen_app_commit": "dd965d814e098c7d68a814bc5b323ff40a7b04fe",
+  "source_sha256": "d13b6d9b31c381cbd10b737e4360621df6f07d177234604e47a9511f3dca821d",
+  "scope": "ordinary Android emulator; mock opponent and driving inputs; no real multiplayer claim",
+  "editing": "real capture reframed with captions; no new game UI or gameplay images; playback speed unchanged",
+  "audio": "original instrumental score synthesized for this edit; not recorded app audio; no voiceover",
+  "shorts": {
+    "file": "cupfight-shorts-0.9.4.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 41.5,
+    "sha256": "64fe7f2d3486c9c9b3e0c39f3ac9be3f015b7af4a9deeb213b88cf3af533547f"
+  },
+  "youtube_demo": {
+    "file": "cupfight-youtube-demo-0.9.4.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 41.5,
+    "sha256": "84c5a8f59ccd7a2354c872eab0db5ea576f158eb98c2a96ad8d71422823a9109"
+  },
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 6.2,
+      "text": "저희 팀은 정차 중 옆 차와\n대결하는 앱을 만들고 있습니다."
+    },
+    {
+      "start": 6.2,
+      "end": 8.1,
+      "text": "정차하면 매칭 알림이\n화면 전체에 나타납니다."
+    },
+    {
+      "start": 8.1,
+      "end": 11.8,
+      "text": "상대 수락을 확인하고\n저도 수락하면 시작합니다."
+    },
+    {
+      "start": 11.8,
+      "end": 24.2,
+      "text": "가감속·코너링을\n내 물잔의 움직임으로 표현합니다."
+    },
+    {
+      "start": 24.2,
+      "end": 31.2,
+      "text": "남은 물로 승부를 가르고\n정차한 뒤 결과를 확인합니다."
+    },
+    {
+      "start": 31.2,
+      "end": 33.4,
+      "text": "완주 보상으로\n차량 아바타를 꾸밉니다."
+    },
+    {
+      "start": 33.4,
+      "end": 41.5,
+      "text": "움직이는 날개를\n내 차량에 미리 적용해 봅니다."
+    }
+  ]
+}
