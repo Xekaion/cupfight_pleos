@@ -1,0 +1,56 @@
+{
+  "app_version": "0.9.4",
+  "version_code": 15,
+  "frozen_app_commit": "dd965d814e098c7d68a814bc5b323ff40a7b04fe",
+  "capture_environment": "ordinary Android API34 emulator; 1280x800 density160",
+  "build": "unchanged published debug APK",
+  "scope": "real app screen recording with mock opponent and mock driving input; no live multiplayer or official Pleos claim",
+  "editing": "startup/menu transitions trimmed; two captured clips joined; black OS inset cropped; captions added; no speed changes",
+  "audio": "silent, captions only",
+  "output_frame_rate": 30,
+  "frame_rate_note": "encoding frame rate; not a performance benchmark",
+  "score_local": 85.1,
+  "score_opponent": 95.1,
+  "safe_brakes": 1,
+  "completion_drops": 30,
+  "video_sha256": "d13b6d9b31c381cbd10b737e4360621df6f07d177234604e47a9511f3dca821d",
+  "source_main_sha256": "22b483c2dff374cc8dce7dfa136d6883fdc6b63c85530564cff226471809a00b",
+  "source_tail_sha256": "fd41237b12a2a69f7ae9b57a8c5cc4996988aa4d457bb359daf49e0befb3dc93",
+  "stages": [
+    [
+      "s2",
+      0,
+      6.2
+    ],
+    [
+      "s3",
+      6.2,
+      8.1
+    ],
+    [
+      "s4",
+      8.1,
+      11.4
+    ],
+    [
+      "s5",
+      11.4,
+      23.9
+    ],
+    [
+      "s6",
+      23.9,
+      30.9
+    ],
+    [
+      "s7",
+      30.9,
+      34.1
+    ],
+    [
+      "s8",
+      34.1,
+      41.5
+    ]
+  ]
+}

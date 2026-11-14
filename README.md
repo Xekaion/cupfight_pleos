@@ -83,6 +83,7 @@ release 빌드는 다음 환경변수로 본인의 서명키를 지정한 뒤 �
 
 ## 구현과 검증 자료
 
+- [0.9.4 매칭·대결 시연 영상](docs/demo-0.9.4/cupfight-demo-0.9.4.mp4): 일반 Android 에뮬레이터에서 현재 debug APK를 직접 조작해 녹화했습니다. 주행·정차, 전체 화면 매칭, 양측 수락, 물잔 경기, 결과·보상과 상점 미리보기를 담았습니다. 상대 차량과 주행 데이터는 모의 입력이며 실제 이용자 간 연결이나 공식 Pleos 시연이 아닙니다. [화면 및 촬영 정보](docs/demo-0.9.4/README.md)를 함께 제공합니다.
 - [현재 로드뷰 실행 화면](docs/verification-0.9.4/traffic-grounded.png)
 - [로드뷰 접지·방향 검사](docs/verification-0.9.4/RoadContactSmoke.java): 확대 범위, 차선과 거리별 400개 조건을 확인했습니다.
 - [정차 판별 검사](docs/verification-0.9.2/VehicleStopGateSmoke.java): 신호 유효성, 전진·후진, 정차 확인 및 신호대기 중 대결 유지를 확인했습니다.
